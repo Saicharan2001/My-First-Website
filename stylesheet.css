@@ -1,0 +1,129 @@
+body{
+	font-family: "Avenir Next";
+	font-weight: bold;
+}
+li{
+	list-style: none;
+}
+.header{
+	background-color: #26d0c9;
+	color: #fff;
+	height:150px;
+	font-family: 'Lora', serif;
+}
+.header-logo{
+	float: left;
+	font-size: 36px;
+	padding: 20px 40px;
+	margin: 30px 0 0 40px;
+}
+.header-list li{
+	float: left;
+	padding: 33px 20px;
+	margin: 30px 0 0 40px;
+}
+.header-img{
+	float: right;
+	height: 150px;
+	width: 250px;
+}
+.header-img img{
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+}
+.main{
+	padding: 100px 80px;
+}
+.copy-container h1{
+	font-size: 140px;
+}
+.copy-container h2{
+	font-size: 60px;
+}
+.copy-container span{
+	color:#ff4a4a;
+}
+.contents{
+	height: 500px;
+	margin-top: 100px;
+
+}
+.sectiontitle{
+	border-bottom: 2px solid #dee7ec;
+	font-size: 30px;
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+
+}
+.contents-item img{
+	width: 200px;
+	height: 200px;
+	padding: 20px 20px;
+}
+.contents img:hover{
+	cursor: pointer;
+	opacity: 0.7;
+	box-shadow: 4px 3px 3px grey;
+}
+.contents-item {
+	float: left;
+	margin-right: 40px;
+}
+.contents-item p{
+	font-size: 24px;
+	margin-top: px;
+	text-align: center;
+}
+.Contact-form{
+	padding-top: 100px;
+}
+input,textarea{
+	width: 400px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	padding:20px;
+	font-size: 18px;
+	border: 1px solid #dee7ec;
+}
+#contact-submit{
+	color: #26d0c9;
+	background-color: #899eab;/*#dee7ec;*/
+	margin-top: 40px;
+}
+#contact-submit:hover{
+	cursor: pointer;
+	background-color: #dee7ec;
+}
+.footer{
+	background-color: #2f5167;
+	height: 150px;
+	padding: 40px;
+	color: #fff;
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+.footer-logo{
+	font-size: 32px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.quotes{
+	float: left;
+	font-style: italic;
+	margin-top: 30px;
+	font-size: 20px;
+	margin-left: 300px;
+}
+.footer-list{
+	float: right;
+}
+.footer-list li{
+	padding-bottom: 30px;
+}
+/*.footer .quotes{
+	display: flex;
+	justify-content: center;  Even though if we add this there is no change in the footer
+	align-items: center;
+}*/
