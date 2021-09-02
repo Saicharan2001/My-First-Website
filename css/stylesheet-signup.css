@@ -1,0 +1,13 @@
+.outer{
+	margin:0 auto;
+	margin-top: 150px;
+	text-align: center;
+}
+button{
+	display: inline-block;
+	margin: 15px;
+	cursor: pointer;
+}
+.confirmation{
+	color: red;
+}

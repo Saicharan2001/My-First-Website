@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign-up page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" href="css/stylesheet-signup.css" type="text/css">
+</head>
+<body>
+	<div class="outer">
+		<div class="Sign-up"><h2>Sign-up here</h2></div>
+		<br><br>
+		<div class="form starts">
+			<form id="myForm" action="" method="post" autocomplete="on">
+				<label for="name-enter">Enter your name :</label>
+				<input type="text" name="name-enter" autofocus><br><br>
+				<label for="email-enter">Enter your Email-id :</label>
+				<input type="email" name="email-enter"><br><br>
+				<label for="gender">Select your Gender :</label>
+				<input type="radio" name="gender" value="M"> Male
+				<input type="radio" name="gender" value="F"> Female
+				<br><br>
+				<!--<label for="Employ">Are you employed :</label>
+				<input type="radio" name="Employ" value="Y"> Yes
+				<input type="radio" name="Employ" value="N"> No
+				<br><br>-->
+				Your interests :
+				<input type="checkbox" value="Software development">Software development&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" value="Web development">Web development&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" value="App development">Mobile App development&nbsp;&nbsp;&nbsp;
+				<br><br>
+				<input type="checkbox" value="Hacking">Cyber Security&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" value="Programming">Competitive Programming&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" value="Data scientist">Data Science&nbsp;&nbsp;&nbsp;
+				<br><br><!--
+				Select your near
+				<select size="1" id="select">
+					<option value="Bangalore">Bangalore</option>
+					<option value="Hyderabad">Hyderabad</option>
+					<option value="Mumbai">Mumbai</option>
+					<option value="Kolkata">Kolkata</option>
+					<option value="Delhi">Delhi</option>
+				</select>-->
+				Create your own password :
+				<input type="password" id="first"><br>
+				<p class="confirmation"></p>
+				Confirm the password:
+				<input type="password" id="second">&nbsp;&nbsp;&nbsp;
+				<b>**Remember your password</b><br><br><br>
+				<button class="button1" type="reset">Cancel</button>
+				<button class="button2" type="button" onclick="check()">Sign up</button><br><br>
+			</form>
+		</div>
+	</div>
+	<script src="js/script-signup.js"></script>
+</body>
+</html>
