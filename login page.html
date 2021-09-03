@@ -4,11 +4,36 @@
 	<title>Login Page</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<style type="text/css">
+		.outerlogin{
+			margin-top: 150px;
+		}
+		button{
+			display: inline-block;
+			margin: 15px;
+			cursor: pointer;
+		}
+	</style>
 </head>
 <body>
-	<div class="outer">
+	<center>
+	<div class="outerlogin">
 		<div class="loginform"><h2>Login form</h2></div>
+		<br><br>
+		<div class="login-starts">
+			<form id="myformlogin" method="post" autocomplete="on">
+					<label for="semail">Enter your email id:</label>
+					<input type="email" id="semail" autofocus><br><br>
+					<label for="spassword">Enter the Password:</label>
+					<input type="password" id="spassword"><br><br>
+					<button type="reset" >Reset</button>
+					<button type="button" id="Login" onclick="logincheck()">Log in</button><br><br>
+					<a href="Sign-up page.html" title="Sign-up">Create a new account</a>
+			</form>
+		</div>
 	</div>
-
+	</center>
+	<script src="js/JQUERY.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
