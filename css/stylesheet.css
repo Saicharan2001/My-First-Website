@@ -115,14 +115,20 @@ li{
 	margin-right: 60px;
 	margin-left: 40px;
 }
-.How-we-work-image img{
+.About-us-image{
+	float: left;
+	margin-top: 20px;
+	margin-right: 60px;
+	margin-left: 40px;
+}
+.How-we-work-image img , .About-us-image img{
 	display: block;
 	max-width: 100%;
 	max-height: 100%;
 	object-fit: fill;
 }
-.How-we-work-text{
-	margin : 25px;
+.How-we-work-text , .About-us-text{
+	margin : 15px;
 	margin-top: 90px;
 }
 .Span-tag{
@@ -130,12 +136,14 @@ li{
 	left: 30%;*/
 	text-align: center;
 }
-.How-we-work-text p{
+.How-we-work-text p , .About-us-text p{
 	font-size: 25px;
 	font-family: 'Lora', serif;
+	margin-top: 30px;
 }
 .Contact-form{
 	padding-top: 70px;
+	margin: 15px;
 }
 .side-image{
 	width: 500px;
