@@ -79,36 +79,6 @@ li{
 	padding:10px 0 0 10px;
 	/*vertical-align: center;*/
 }
-.contents{
-	height: 500px;
-	margin-top: 50px;
-}
-.sectiontitle{
-	border-bottom: 2px solid #dee7ec;
-	font-size: 30px;
-	padding-bottom: 15px;
-	margin-bottom: 50px;
-
-}
-.contents-item img{
-	width: 200px;
-	height: 200px;
-	padding: 20px 20px;
-}
-.contents img:hover{
-	cursor: pointer;
-	opacity: 0.7;
-	box-shadow: 4px 3px 3px grey;
-}
-.contents-item {
-	float: left;
-	margin-right: 40px;
-}
-.contents-item p{
-	font-size: 24px;
-	margin-top: 20px;
-	text-align: center;
-}
 .How-we-work-image{	
 	float: right;
 	margin-top: 20px;
