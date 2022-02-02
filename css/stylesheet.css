@@ -4,6 +4,9 @@ body{
 	padding: 0px 1px 0px 3px;
 	margin: 0px;
 }
+*{
+	box-sizing: border-box;
+}
 li a{
 	text-decoration: none;
 	color: white;
@@ -16,6 +19,7 @@ li{
 	color: #fff;
 	height:170px;
 	font-family: 'Lora', serif;
+	margin-top: -15px;
 }
 .header-logo{
 	float: left;
@@ -147,7 +151,7 @@ input,textarea{
 }
 .footer{
 	background-color: #2f5167;
-	height: 150px;
+	height: 230px;
 	padding: 40px;
 	color: #fff;
 	font-family: 'Lora', serif;

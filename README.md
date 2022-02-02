@@ -9,5 +9,6 @@
 - HTML
 - CSS
 - JavaScript
+- JQuery
 - SQLite
 
