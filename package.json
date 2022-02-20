@@ -1,0 +1,24 @@
+{
+  "name": "my-first-website",
+  "version": "1.0.0",
+  "description": "My first Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saicharan2001/My-First-Website.git"
+  },
+  "author": "K.SaiCharan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saicharan2001/My-First-Website/issues"
+  },
+  "homepage": "https://github.com/Saicharan2001/My-First-Website#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "https": "^1.0.0"
+  }
+}
