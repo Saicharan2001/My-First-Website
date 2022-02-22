@@ -4,7 +4,7 @@
 ### This website is still in progress and I am working on it regularly
 
 
-#### languages used are :
+#### Languages used are :
 
 - HTML
 - CSS
