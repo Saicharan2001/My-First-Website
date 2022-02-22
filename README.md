@@ -1,10 +1,10 @@
 # My First Website 
 
 
-### This website is still in progress and I am working on it regualarly
+### This website is still in progress and I am working on it regularly
 
 
-#### The languages used are :
+#### languages used are :
 
 - HTML
 - CSS
