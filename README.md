@@ -8,7 +8,11 @@
 
 - HTML
 - CSS
+- Bootstrap
 - JavaScript
 - JQuery
 - SQLite
+- Express
+
+
 
