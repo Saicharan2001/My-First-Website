@@ -11,10 +11,12 @@ app.get("/", function (req, res) {
 });
 
 app.post("/", function (req, res) {
-  res.write(req.body.email1 + "Your form is submitted successfully");
-  res.write("You can peacefully move back to the home page");
+  res.write(
+    "<h1>" + req.body.email1 + " Your form is submitted successfully</h1>"
+  );
+  res.write("<p>You can peacefully move back to the home page</p>");
   res.send();
 });
-app.listen(80, function (req, res) {
+app.listen(process.env.PORT || 80, function (req, res) {
   console.log("Server is started");
 });
