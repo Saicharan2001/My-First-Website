@@ -47,28 +47,39 @@ function signup(){
 //function back(){
 	//window.location.href="index.html";
 //}
-function logincheck(){
-	if(($("#semail").val()=="") || ($("#spassword").val()=="")){
- 		alert("Credentials can't be empty");
- 	}
- 	else{
- 		var selectAllStatement='SELECT * FROM PEOPLE WHERE email=?';
- 		db.transaction(function(tx){
- 			tx.executeSql(selectAllStatement,[$("#semail").val()], function(tx , result){
- 				var dataset=result.rows;
- 				for(var i=0 , item=null;i<dataset.length;i++ ){
- 					item = dataset.item(i);
- 					if(item['password'] === $("#spassword").val()){
- 						alert("Logged in successfully");
-		 				window.location.href="Course page.html";
- 					}
- 				}
- 				if(window.location.href == 'file:///C:/Users/saich/Desktop/All%20html%20files/My-First-Website/login%20page.html'){
- 					alert("Invalid Credentials");
- 				}
- 			});
- 		});
- 	}
+function logincheck() {
+  var check = 0;
+  if ($("#semail").val() == "" || $("#spassword").val() == "") {
+    alert("Credentials can't be empty");
+  } else {
+    var selectAllStatement = "SELECT * FROM PEOPLE WHERE email=?";
+    db.transaction(function (tx) {
+      tx.executeSql(
+        selectAllStatement,
+        [$("#semail").val()],
+        function (tx, result) {
+          var dataset = result.rows;
+          for (var i = 0, item = null; i < dataset.length; i++) {
+            item = dataset.item(i);
+            if (item["password"] === $("#spassword").val()) {
+              alert("Logged in successfully");
+              check = 1;
+              window.location.href = "Course page.html";
+            }
+          }
+          if (check == 0) {
+            alert("Invalid Credentials");
+          }
+          //   if (
+          //     window.location.href ==
+          //     "file:///C:/Users/saich/Desktop/All%20html%20files/My-First-Website/login%20page.html"
+          //   ) {
+          //     alert("Invalid Credentials");
+          //   }
+        }
+      );
+    });
+  }
 }
 // function logincheck(){
 // 	if(($("#semail").val()=="") || ($("#spassword").val()=="")){
