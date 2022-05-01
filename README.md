@@ -14,6 +14,6 @@
 - SQLite
 - Express
 
-[Check out my website here](https://glacial-hollows-87936.herokuapp.com)
+[Check out my website here](https://glacial-hollows-87936.herokuapp.com) or [here](https://misingtodd.azurewebsites.net/)
 
 
